@@ -1,0 +1,53 @@
+.card-body {
+    background-image: url('images/ehhvzjdx1s091.jpg');
+    background-size: cover;
+    background-position: center; 
+    height: 630px;
+}
+
+
+.main-card {
+  background-image: url('images/background.avif');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 185px;
+    cursor: pointer;
+}
+.fa-solid{
+     cursor: pointer;
+}
+
+.weather-img-div {
+  margin-top: -75px;
+    width: 100%;
+}
+
+.weather-location {
+    background-color: white;
+    padding: 4px;
+    border-radius: 30px;
+    width: 85%;
+    
+}
+
+.weather-location.error {
+    border-color: red;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+     
